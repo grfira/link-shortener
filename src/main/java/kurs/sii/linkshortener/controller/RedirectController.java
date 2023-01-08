@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 
 @RestController
 @RequestMapping
@@ -17,6 +18,11 @@ public void redirectLink(
        httpServletResponse.sendRedirect("https://github.com/greencashew/warsztaty-podstawy-springa");
 
     }
+/*    @PutMapping("")
+    @Mapping()
+    public void  createLink(){
+
+    }*/
 
 
 
